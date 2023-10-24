@@ -25,5 +25,6 @@ The Simple Search Engine is a Java-based project that allows you to create an in
 
 ```bash
 git clone https://github.com/your-username/simple-search-engine.git
+```
 
 PS. This repo was created as an assignment.
