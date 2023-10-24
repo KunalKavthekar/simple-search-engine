@@ -5,7 +5,10 @@ The Simple Search Engine is a Java-based project that allows you to create an in
 ## Features
 
 - Create an inverted index from a list of documents.
+- text_dataset file acts as the input file where each new line is then interpreted as a new document
 - Perform searches for single terms in the document set.
+- The TF score is calculated using the "term frequency adjusted for document length" approach 
+- The IDF score is calculated using the Standard/Logarithmic formula ( https://en.wikipedia.org/wiki/Tf%E2%80%93idf )
 - Retrieve a list of matching documents sorted by TF-IDF score.
 
 ## Getting Started
@@ -22,3 +25,5 @@ The Simple Search Engine is a Java-based project that allows you to create an in
 
 ```bash
 git clone https://github.com/your-username/simple-search-engine.git
+
+PS. This repo was created as an assignment.
